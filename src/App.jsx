@@ -38,6 +38,7 @@ function App() {
             <Header />
             <ScrollToTop />
             <Routes>
+              <Route index path="/Coaching" element={<Home />} />
               <Route index path="/" element={<Home />} />
               <Route index path="/index.html" element={<Home />} />
               <Route path="/home" element={<Home />} />
