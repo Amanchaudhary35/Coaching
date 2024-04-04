@@ -46,7 +46,7 @@ function App() {
               <Route path="/courses" element={<Course />} />
               <Route path="/students" element={<Students />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<ErrorPage />} />
+              {/* <Route path="*" element={<ErrorPage />} /> */}
 
             </Routes>
           </BrowserRouter>
